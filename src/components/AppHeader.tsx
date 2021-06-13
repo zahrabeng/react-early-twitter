@@ -1,12 +1,12 @@
+import NavItem from "./NavItem";
+
 function AppHeader(): JSX.Element {
   return (
     <header>
       <h2>twitter</h2>
       <nav>
-        <a href="#">updates</a>
-        <span> | </span>
-        <a href="#">archive</a>
-        <span> | </span>
+        <NavItem label={'updates'} />
+        <NavItem label={'archive'} />
         <a href="#">preferences</a>
         <span> | </span>
         <a href="#">help</a>
