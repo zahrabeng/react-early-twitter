@@ -4,7 +4,7 @@ interface StatusItemProps {
   username: string;
   content: string;
   emoji?: string;
-  timeAgo: { n: number; unit: TimeUnit; }
+  timeAgo: { n: number; unit: TimeUnit };
 }
 
 function StatusItem(props: StatusItemProps): JSX.Element {
@@ -16,4 +16,4 @@ function StatusItem(props: StatusItemProps): JSX.Element {
   );
 }
 
-export default StatusItem
+export default StatusItem;

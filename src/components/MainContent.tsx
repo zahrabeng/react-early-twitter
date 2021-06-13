@@ -7,7 +7,7 @@ function MainContent(): JSX.Element {
       <StatusSetter />
       <FriendStatuses />
     </main>
-  )
+  );
 }
 
-export default MainContent
+export default MainContent;

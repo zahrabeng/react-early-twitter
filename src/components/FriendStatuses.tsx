@@ -73,4 +73,4 @@ function FriendStatuses(): JSX.Element {
   );
 }
 
-export default FriendStatuses
+export default FriendStatuses;

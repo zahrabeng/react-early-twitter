@@ -1,5 +1,3 @@
-
-
 function StatusSetter(): JSX.Element {
   return (
     <div>
@@ -13,4 +11,4 @@ function StatusSetter(): JSX.Element {
   );
 }
 
-export default StatusSetter
+export default StatusSetter;

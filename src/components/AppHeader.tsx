@@ -1,5 +1,3 @@
-
-
 function AppHeader(): JSX.Element {
   return (
     <header>
@@ -19,4 +17,4 @@ function AppHeader(): JSX.Element {
   );
 }
 
-export default AppHeader
+export default AppHeader;
