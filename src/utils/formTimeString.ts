@@ -1,5 +1,12 @@
 import removeFinalCharacter from "./removeFinalCharacter";
 
+/**
+ * A unit of time for status updates.
+ * 
+ * Rather than being an unrestricted string (which would allow nonsense units of time like "banana elephant embezzler"), we use a union of literal types.
+ * 
+ * Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types
+ */
 export type TimeUnit = "minutes" | "hours" | "days";
 
 /**
