@@ -17,6 +17,6 @@ function formTimeString(count: number, unit: TimeUnit): string {
   } else {
     return `${count} ${compensatedUnit}`
   }
-};
+}
 
 export default formTimeString
