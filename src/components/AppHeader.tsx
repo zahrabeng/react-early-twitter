@@ -7,11 +7,9 @@ function AppHeader(): JSX.Element {
       <nav>
         <NavItem label={'updates'} />
         <NavItem label={'archive'} />
-        <a href="#">preferences</a>
-        <span> | </span>
-        <a href="#">help</a>
-        <span> | </span>
-        <a href="#">sign-out</a>
+        <NavItem label={'preferences'} />
+        <NavItem label={'help'} />
+        <NavItem label={'sign-out'} />
       </nav>
     </header>
   );
